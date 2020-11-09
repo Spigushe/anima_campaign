@@ -1,0 +1,36 @@
+/* FONTS */
+@font-face {
+  font-family: 'jmh_arkhamregular';
+  src:
+    url('fonts/jmharkhamregular.woff2') format('woff2'),
+    url('fonts/jmharkhamregular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'vecnabold';
+  src:
+    url('fonts/vecnabold.woff2') format('woff2'),
+    url('fonts/vecnabold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'wishgood';
+  src:
+    url('fonts/wishgood.woff2') format('woff2'),
+    url('fonts/wishgood.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'pigpen_encryption';
+  src:
+    url('fonts/pigpenencryption.woff2') format('woff2'),
+    url('fonts/pigpenencryption.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
