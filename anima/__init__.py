@@ -39,7 +39,7 @@ def index(page=None):
 
 # Use of a navigation helper
 def _url(page, _anchor=None, **params):
-    url = "/" + page.url
+    url = page.url
     if params:
         url += "?" + urllib.parse.urlencode(params)
     if _anchor:
