@@ -3,7 +3,7 @@ import re
 import unidecode
 
 Page = collections.namedtuple("Page", ["name", "path", "url"])
-
+ROOT_NAME = "Accueil"
 
 class Nav:
     def __init__(self, name, index=False, children=None):
@@ -15,7 +15,7 @@ class Nav:
         res = unidecode.unidecode(str(self.name))
         res = re.sub(r"[^\sa-zA-Z0-9]", "", res).lower().strip()
         res = re.sub(r"\s+", "-", res)
-        if res == "home":
+        if res == ROOT_NAME.lower():
             res = path
         else:
             res = path + "/" + res
@@ -46,7 +46,7 @@ class Nav:
 
 
 STRUCTURE = Nav(
-    "Accueil",
+    ROOT_NAME,
     index=True,
     children=[
         Nav(
