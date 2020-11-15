@@ -439,6 +439,50 @@ div.result-message {
     margin-right: 0.5em;
     color: #582110;
 }
+.info {
+    background: #cce5ff;
+    border: 1px solid #b8daff;
+    clear: both;
+}
+.info h3 {
+    color: #004085;
+}
+.info h3::before {
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f071";
+    font-size: 1.5em;
+    margin-right: 0.5em;
+    color: #004085;
+}
+.light {
+    background: #e2e3e5;
+    border: 1px solid #d6d8db;
+    clear: both;
+}
+.light h3 {
+    color: #383d41;
+}
+.light h3::before {
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f071";
+    font-size: 1.5em;
+    margin-right: 0.5em;
+    color: #383d41;
+}
+.plot {
+	font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 87.5%;
+    border-left: 5px double #7f8c8d;
+    margin-left: 2rem;
+    margin-right: 1rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+    padding: 1rem;
+    text-align: justify;
+    background-color: #d7dbdd;
+}
 form {
     margin: 1em 0;
     text-align: left;

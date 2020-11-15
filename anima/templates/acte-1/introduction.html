@@ -1,8 +1,8 @@
 {% extends "acte-1/acte-1.html" %}
 
-{% block article %}
+{% block aventure %}
 <h3>Introduction à l'acte 1</h3>
-<div class="alert alert-secondary" role="alert">
+<div class="light">
 	Premier scénario du groupe qui permettra de tester ses capacités
 	hors combat<br>
 	Il s'agit d'un scénario de prise en main de leur personnage<br>
@@ -47,8 +47,9 @@
 	continent.
 </p>
 
-<div class="text-center my-3">
-	<img src="{{ url_for('static', filename='img/separateur.png')}}" class="img-fluid separateur" alt="[…]"/>
+<div class="text-center">
+	<img src="{{ url_for('static', filename='img/separateur.png')}}"
+		style="height: 48px;" alt="[…]" />
 </div>
 
 <p>
