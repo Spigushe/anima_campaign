@@ -27,6 +27,7 @@ def page_not_found(error):
 # Default route
 @app.route("/")
 @app.route("/<path:page>")
+@app.route("/fr/<path:page>")
 def index(page=None):
 	redirect = False
 	if not page:
