@@ -108,6 +108,20 @@ STRUCTURE = Nav(
                         Nav("Bracelet des Tempêtes"),
                     ],
                 ),
+                Nav(
+                    "Lore",
+                    index=False,
+                    children=[
+                        Nav("Pièces noires"),
+                    ],
+                ),
+				Nav(
+                    "Théorie",
+                    index=False,
+                    children=[
+                        Nav("Donjon en 5 salles"),
+                    ],
+                ),
             ],
         ),
     ],
