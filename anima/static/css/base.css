@@ -16,6 +16,13 @@
         url("/static/fonts/fa-brands-400.woff2") format("woff2"),
         url("/static/fonts/fa-brands-400.eot") format("embedded-opentype");
 }
+@font-face {
+	font-family: 'pigpen_encryption';
+	src: url('/static/fonts/pigpenencryption.woff2') format('woff2'),
+		url('/static/fonts/pigpenencryption.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
 body {
     font-family: "Times New Roman", Times, serif;
     color: #000000;
@@ -219,6 +226,18 @@ p {
     text-align: left;
     margin-left: auto;
     margin-right: auto;
+}
+p.plot {
+	font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+	font-size: 87.5%;
+	border-left: 5px double #7f8c8d;
+	margin-left: 2rem;
+	margin-right: 1rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	padding: 1rem;
+	text-align: justify;
+	background-color: #d7dbdd;
 }
 ul {
     max-width: 700px;
@@ -471,18 +490,6 @@ div.result-message {
     margin-right: 0.5em;
     color: #383d41;
 }
-.plot {
-	font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-    font-size: 87.5%;
-    border-left: 5px double #7f8c8d;
-    margin-left: 2rem;
-    margin-right: 1rem;
-	margin-top: 2rem;
-	margin-bottom: 2rem;
-    padding: 1rem;
-    text-align: justify;
-    background-color: #d7dbdd;
-}
 form {
     margin: 1em 0;
     text-align: left;
@@ -633,4 +640,11 @@ form input[type="submit"] {
     margin: 0;
     border: 0;
     clear: both;
+}
+
+.pigpen {
+  font-family:
+    'pigpen_encryption',
+    serif;
+  font-size: 150%;
 }
