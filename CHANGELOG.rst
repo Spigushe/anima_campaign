@@ -1,10 +1,10 @@
 Changelog
 =========
 
-0.2 (unreleased)
+0.2 (2021-02-14)
 ----------------
 
-- Nothing changed yet.
+- Online release
 
 
 0.1 (2021-02-14)
