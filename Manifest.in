@@ -1,5 +1,4 @@
 include LICENSE README.md CHANGELOG.rst
-inclide *.in
 
 graft anima
 
